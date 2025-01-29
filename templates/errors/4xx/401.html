@@ -1,0 +1,4 @@
+{% extends 'errors/error_parent.html' %}
+{% block error_title %} {{ error_title }} {{ error_code }} {% endblock error_title %}
+{% block error_header %} Error Code : {{ error_code }} {% endblock error_header %}
+{% block error_message %} {{ error_message }} {% endblock error_message %}
